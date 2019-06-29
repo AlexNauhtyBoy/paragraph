@@ -206,6 +206,13 @@ class Paragraph {
       tags: [ 'P' ]
     };
   }
+
+  static get toolbox() {
+    return {
+      icon: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 19L15.5 4H16.5L16.5 19H15.5ZM6.83334 8.83334V9.75001H8.83334V15.3333C8.83334 16.5 9.00001 17 10.5 17H12V16.0833H10.5C10.1667 16.0833 10 15.9167 10 15.5833V9.75001H12.3333V8.83334H10V5.33334H9.16668L9.08334 7.33334C9.03334 8.41668 8.83334 8.83334 8.25001 8.83334H6.83334Z" fill="#212132"/></svg>`,
+      title: 'basic text'
+    };
+  }
 }
 
 module.exports = Paragraph;
